@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Forestgram.Gtk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6624f21400abb1e3ca404209d876ba9bdc88a07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Forestgram.Gtk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Forestgram.Gtk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
