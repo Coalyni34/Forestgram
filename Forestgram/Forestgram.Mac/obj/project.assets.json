@@ -38,7 +38,7 @@
       },
       "Forestgram/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Eto.Forms": "2.11.0"
         },
@@ -87,7 +87,7 @@
       },
       "Forestgram/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Eto.Forms": "2.11.0"
         },
@@ -136,7 +136,7 @@
       },
       "Forestgram/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Eto.Forms": "2.11.0"
         },
@@ -227,11 +227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Mac/Forestgram.Mac.csproj",
+      "projectUniqueName": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Mac/Forestgram.Mac.csproj",
       "projectName": "Forestgram.Mac",
-      "projectPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Mac/Forestgram.Mac.csproj",
+      "projectPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Mac/Forestgram.Mac.csproj",
       "packagesPath": "/home/coalynilap/.nuget/packages/",
-      "outputPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Mac/obj/",
+      "outputPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Mac/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/coalynilap/.nuget/NuGet/NuGet.Config"
@@ -247,8 +247,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj": {
-              "projectPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj"
+            "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj": {
+              "projectPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj"
             }
           }
         }

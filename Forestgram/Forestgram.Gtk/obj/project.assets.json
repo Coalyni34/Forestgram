@@ -123,7 +123,7 @@
       },
       "Forestgram/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Eto.Forms": "2.11.0"
         },
@@ -286,11 +286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
+      "projectUniqueName": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
       "projectName": "Forestgram.Gtk",
-      "projectPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
+      "projectPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
       "packagesPath": "/home/coalynilap/.nuget/packages/",
-      "outputPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Gtk/obj/",
+      "outputPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Gtk/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/coalynilap/.nuget/NuGet/NuGet.Config"
@@ -306,8 +306,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj": {
-              "projectPath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj"
+            "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj": {
+              "projectPath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram/Forestgram.csproj"
             }
           }
         }

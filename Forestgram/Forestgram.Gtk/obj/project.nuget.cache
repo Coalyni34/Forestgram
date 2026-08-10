@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GZKSsxlKv5k=",
+  "dgSpecHash": "wffgibOg+rk=",
   "success": true,
-  "projectFilePath": "/home/coalynilap/GIthubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
+  "projectFilePath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
   "expectedPackageFiles": [
     "/home/coalynilap/.nuget/packages/atksharp/3.24.24.95/atksharp.3.24.24.95.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/cairosharp/3.24.24.95/cairosharp.3.24.24.95.nupkg.sha512",
