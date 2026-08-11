@@ -1,3 +1,8 @@
+// [EN] Synchronous command implementation for MVVM
+// [RU] Синхронная команда для MVVM
+// [ZH] MVVM的同步命令实现
+// [FA] پیاده‌سازی فرمان همزمان برای MVVM
+
 using System;
 using System.Windows.Input;
 
@@ -15,13 +20,12 @@ namespace Forestgram.Core.Commands
         }
 
         public bool CanExecute(object? parameter) => _canExecute?.Invoke() ?? true;
-
         public void Execute(object? parameter) => _execute();
 
         public event EventHandler? CanExecuteChanged
         {
-            add { }  
-            remove { } 
+            add { }
+            remove { }
         }
     }
 }

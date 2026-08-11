@@ -1,3 +1,8 @@
+// [EN] Asynchronous command implementation for MVVM
+// [RU] Асинхронная команда для MVVM
+// [ZH] MVVM的异步命令实现
+// [FA] پیاده‌سازی فرمان ناهمزمان برای MVVM
+
 using System;
 using System.Threading.Tasks;
 using System.Windows.Input;

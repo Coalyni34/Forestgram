@@ -1,3 +1,8 @@
+// [EN] File-based storage implementation (session.dat, settings.txt)
+// [RU] Файловое хранилище (session.dat, настройки)
+// [ZH] 基于文件的存储实现（session.dat，设置文件）
+// [FA] پیاده‌سازی حافظه فایل‌محور (session.dat، تنظیمات)
+
 using System;
 using System.IO;
 using System.Threading.Tasks;

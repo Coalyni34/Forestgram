@@ -1,3 +1,8 @@
+// [EN] DI registration: all Core services and ViewModels
+// [RU] DI-регистрация: все сервисы и ViewModel
+// [ZH] 依赖注入注册：所有核心服务和视图模型
+// [FA] ثبت وابستگی: همه سرویس‌ها و ViewModelها
+
 using Forestgram.Core.Services;
 using Forestgram.Core.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,38 +16,22 @@ namespace Forestgram.Core.DependencyInjection
             string apiId,
             string apiHash)
         {
-            // ============================================================
-            // 1. Хранилище (IStorage)
-            // ============================================================
+            // [EN] Storage / [RU] Хранилище / [ZH] 存储 / [FA] حافظه
             services.AddSingleton<IStorage, FileStorage>();
 
-            // ============================================================
-            // 2. Клиент Telegram (ITelegramClient)
-            // ============================================================
+            // [EN] Telegram client / [RU] Клиент Telegram / [ZH] Telegram客户端 / [FA] کلاینت تلگرام
             services.AddSingleton<ITelegramClient>(sp =>
             {
                 var storage = sp.GetRequiredService<IStorage>();
                 return new TelegramClient(storage, apiId, apiHash);
             });
 
-            // ============================================================
-            // 3. Сервис диалогов (IDialogService)
-            // ============================================================
+            // [EN] Services / [RU] Сервисы / [ZH] 服务 / [FA] سرویس‌ها
             services.AddSingleton<IDialogService, DialogService>();
-
-            // ============================================================
-            // 4. Сервис сообщений (IMessageService)
-            // ============================================================
             services.AddSingleton<IMessageService, MessageService>();
 
-            // ============================================================
-            // 5. ViewModel для входа (LoginViewModel)
-            // ============================================================
+            // [EN] ViewModels / [RU] ViewModel / [ZH] 视图模型 / [FA] ViewModelها
             services.AddTransient<LoginViewModel>();
-
-            // ============================================================
-            // 6. Главная ViewModel (MainViewModel)
-            // ============================================================
             services.AddTransient<MainViewModel>();
 
             return services;
