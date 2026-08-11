@@ -36,11 +36,168 @@
           "build/Eto.Platform.Mac64.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/10.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Mono.Nat/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Mono.Nat.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MonoTorrent/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Nat": "3.0.0",
+          "ReusableTasks": "4.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        }
+      },
+      "ReusableTasks/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "WTelegramClient/4.4.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Forestgram/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Eto.Forms": "2.11.0"
+          "Eto.Forms": "2.11.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.10",
+          "MonoTorrent": "3.0.2",
+          "WTelegramClient": "4.4.7"
         },
         "compile": {
           "bin/placeholder/Forestgram.dll": {}
@@ -85,11 +242,168 @@
           "build/Eto.Platform.Mac64.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/10.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Mono.Nat/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Mono.Nat.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MonoTorrent/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Nat": "3.0.0",
+          "ReusableTasks": "4.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        }
+      },
+      "ReusableTasks/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "WTelegramClient/4.4.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Forestgram/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Eto.Forms": "2.11.0"
+          "Eto.Forms": "2.11.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.10",
+          "MonoTorrent": "3.0.2",
+          "WTelegramClient": "4.4.7"
         },
         "compile": {
           "bin/placeholder/Forestgram.dll": {}
@@ -134,11 +448,168 @@
           "build/Eto.Platform.Mac64.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection/10.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Mono.Nat/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Mono.Nat.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MonoTorrent/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Nat": "3.0.0",
+          "ReusableTasks": "4.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        }
+      },
+      "ReusableTasks/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "WTelegramClient/4.4.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Forestgram/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Eto.Forms": "2.11.0"
+          "Eto.Forms": "2.11.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.10",
+          "MonoTorrent": "3.0.2",
+          "WTelegramClient": "4.4.7"
         },
         "compile": {
           "bin/placeholder/Forestgram.dll": {}
@@ -207,6 +678,270 @@
         "lib/net8.0/MonoMac.dll",
         "lib/netstandard2.0/Eto.Mac64.dll",
         "lib/netstandard2.0/MonoMac.dll"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/10.0.10": {
+      "sha512": "ANyvsgkNBRvcJh2XLgn8veGmajf+8m0AbKK+HPWdRL1yraSNVVSmQhFntLtdz/C795jxqqup+k05cs/3jZQPOA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/10.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.10": {
+      "sha512": "z/2xXlFw2aLGjHyEm6E0tQ+In6VfzQzTrtArbQ2c0TQE16ZbyDCMGPvaUT9I0s8rgy9sRWlU2P9waW37qV04qA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Mono.Nat/3.0.0": {
+      "sha512": "LgRC8/8plJfvr1nCPmyHNIwP4fs346doMA/UVDZvFN0RfGJdyD2uS7Dl1AydxjVLrIvad8ghozI0vYFWcfPeYQ==",
+      "type": "package",
+      "path": "mono.nat/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netstandard2.0/Mono.Nat.dll",
+        "lib/netstandard2.0/Mono.Nat.xml",
+        "lib/netstandard2.1/Mono.Nat.dll",
+        "lib/netstandard2.1/Mono.Nat.xml",
+        "mono.nat.3.0.0.nupkg.sha512",
+        "mono.nat.nuspec"
+      ]
+    },
+    "MonoTorrent/3.0.2": {
+      "sha512": "kWy0mLj2MKX9uUGe3lnNYfyQhthjUK4IAMNJO8llXP9yB3ZYfGaAy9ag20wMcjTz2YfhKOW/uZ5FR//BYZGeYA==",
+      "type": "package",
+      "path": "monotorrent/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net472/Mono.Nat.dll",
+        "lib/net472/MonoTorrent.BEncoding.dll",
+        "lib/net472/MonoTorrent.BEncoding.xml",
+        "lib/net472/MonoTorrent.Client.dll",
+        "lib/net472/MonoTorrent.Client.xml",
+        "lib/net472/MonoTorrent.Connections.dll",
+        "lib/net472/MonoTorrent.Connections.xml",
+        "lib/net472/MonoTorrent.Dht.dll",
+        "lib/net472/MonoTorrent.Dht.xml",
+        "lib/net472/MonoTorrent.Factories.dll",
+        "lib/net472/MonoTorrent.Factories.xml",
+        "lib/net472/MonoTorrent.Messages.dll",
+        "lib/net472/MonoTorrent.Messages.xml",
+        "lib/net472/MonoTorrent.PiecePicking.dll",
+        "lib/net472/MonoTorrent.PiecePicking.xml",
+        "lib/net472/MonoTorrent.PieceWriter.dll",
+        "lib/net472/MonoTorrent.PieceWriter.xml",
+        "lib/net472/MonoTorrent.PortForwarding.dll",
+        "lib/net472/MonoTorrent.PortForwarding.xml",
+        "lib/net472/MonoTorrent.Trackers.dll",
+        "lib/net472/MonoTorrent.Trackers.xml",
+        "lib/net472/MonoTorrent.dll",
+        "lib/net472/MonoTorrent.xml",
+        "lib/net5.0/MonoTorrent.BEncoding.dll",
+        "lib/net5.0/MonoTorrent.BEncoding.xml",
+        "lib/net5.0/MonoTorrent.Client.dll",
+        "lib/net5.0/MonoTorrent.Client.xml",
+        "lib/net5.0/MonoTorrent.Connections.dll",
+        "lib/net5.0/MonoTorrent.Connections.xml",
+        "lib/net5.0/MonoTorrent.Dht.dll",
+        "lib/net5.0/MonoTorrent.Dht.xml",
+        "lib/net5.0/MonoTorrent.Factories.dll",
+        "lib/net5.0/MonoTorrent.Factories.xml",
+        "lib/net5.0/MonoTorrent.Messages.dll",
+        "lib/net5.0/MonoTorrent.Messages.xml",
+        "lib/net5.0/MonoTorrent.PiecePicking.dll",
+        "lib/net5.0/MonoTorrent.PiecePicking.xml",
+        "lib/net5.0/MonoTorrent.PieceWriter.dll",
+        "lib/net5.0/MonoTorrent.PieceWriter.xml",
+        "lib/net5.0/MonoTorrent.PortForwarding.dll",
+        "lib/net5.0/MonoTorrent.PortForwarding.xml",
+        "lib/net5.0/MonoTorrent.Trackers.dll",
+        "lib/net5.0/MonoTorrent.Trackers.xml",
+        "lib/net5.0/MonoTorrent.dll",
+        "lib/net5.0/MonoTorrent.xml",
+        "lib/net6.0/MonoTorrent.BEncoding.dll",
+        "lib/net6.0/MonoTorrent.BEncoding.xml",
+        "lib/net6.0/MonoTorrent.Client.dll",
+        "lib/net6.0/MonoTorrent.Client.xml",
+        "lib/net6.0/MonoTorrent.Connections.dll",
+        "lib/net6.0/MonoTorrent.Connections.xml",
+        "lib/net6.0/MonoTorrent.Dht.dll",
+        "lib/net6.0/MonoTorrent.Dht.xml",
+        "lib/net6.0/MonoTorrent.Factories.dll",
+        "lib/net6.0/MonoTorrent.Factories.xml",
+        "lib/net6.0/MonoTorrent.Messages.dll",
+        "lib/net6.0/MonoTorrent.Messages.xml",
+        "lib/net6.0/MonoTorrent.PiecePicking.dll",
+        "lib/net6.0/MonoTorrent.PiecePicking.xml",
+        "lib/net6.0/MonoTorrent.PieceWriter.dll",
+        "lib/net6.0/MonoTorrent.PieceWriter.xml",
+        "lib/net6.0/MonoTorrent.PortForwarding.dll",
+        "lib/net6.0/MonoTorrent.PortForwarding.xml",
+        "lib/net6.0/MonoTorrent.Trackers.dll",
+        "lib/net6.0/MonoTorrent.Trackers.xml",
+        "lib/net6.0/MonoTorrent.dll",
+        "lib/net6.0/MonoTorrent.xml",
+        "lib/netcoreapp3.0/MonoTorrent.BEncoding.dll",
+        "lib/netcoreapp3.0/MonoTorrent.BEncoding.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Client.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Client.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Connections.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Connections.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Dht.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Dht.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Factories.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Factories.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Messages.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Messages.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PiecePicking.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PiecePicking.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PieceWriter.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PieceWriter.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PortForwarding.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PortForwarding.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Trackers.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Trackers.xml",
+        "lib/netcoreapp3.0/MonoTorrent.dll",
+        "lib/netcoreapp3.0/MonoTorrent.xml",
+        "lib/netstandard2.0/MonoTorrent.BEncoding.dll",
+        "lib/netstandard2.0/MonoTorrent.BEncoding.xml",
+        "lib/netstandard2.0/MonoTorrent.Client.dll",
+        "lib/netstandard2.0/MonoTorrent.Client.xml",
+        "lib/netstandard2.0/MonoTorrent.Connections.dll",
+        "lib/netstandard2.0/MonoTorrent.Connections.xml",
+        "lib/netstandard2.0/MonoTorrent.Dht.dll",
+        "lib/netstandard2.0/MonoTorrent.Dht.xml",
+        "lib/netstandard2.0/MonoTorrent.Factories.dll",
+        "lib/netstandard2.0/MonoTorrent.Factories.xml",
+        "lib/netstandard2.0/MonoTorrent.Messages.dll",
+        "lib/netstandard2.0/MonoTorrent.Messages.xml",
+        "lib/netstandard2.0/MonoTorrent.PiecePicking.dll",
+        "lib/netstandard2.0/MonoTorrent.PiecePicking.xml",
+        "lib/netstandard2.0/MonoTorrent.PieceWriter.dll",
+        "lib/netstandard2.0/MonoTorrent.PieceWriter.xml",
+        "lib/netstandard2.0/MonoTorrent.PortForwarding.dll",
+        "lib/netstandard2.0/MonoTorrent.PortForwarding.xml",
+        "lib/netstandard2.0/MonoTorrent.Trackers.dll",
+        "lib/netstandard2.0/MonoTorrent.Trackers.xml",
+        "lib/netstandard2.0/MonoTorrent.dll",
+        "lib/netstandard2.0/MonoTorrent.xml",
+        "lib/netstandard2.1/MonoTorrent.BEncoding.dll",
+        "lib/netstandard2.1/MonoTorrent.BEncoding.xml",
+        "lib/netstandard2.1/MonoTorrent.Client.dll",
+        "lib/netstandard2.1/MonoTorrent.Client.xml",
+        "lib/netstandard2.1/MonoTorrent.Connections.dll",
+        "lib/netstandard2.1/MonoTorrent.Connections.xml",
+        "lib/netstandard2.1/MonoTorrent.Dht.dll",
+        "lib/netstandard2.1/MonoTorrent.Dht.xml",
+        "lib/netstandard2.1/MonoTorrent.Factories.dll",
+        "lib/netstandard2.1/MonoTorrent.Factories.xml",
+        "lib/netstandard2.1/MonoTorrent.Messages.dll",
+        "lib/netstandard2.1/MonoTorrent.Messages.xml",
+        "lib/netstandard2.1/MonoTorrent.PiecePicking.dll",
+        "lib/netstandard2.1/MonoTorrent.PiecePicking.xml",
+        "lib/netstandard2.1/MonoTorrent.PieceWriter.dll",
+        "lib/netstandard2.1/MonoTorrent.PieceWriter.xml",
+        "lib/netstandard2.1/MonoTorrent.PortForwarding.dll",
+        "lib/netstandard2.1/MonoTorrent.PortForwarding.xml",
+        "lib/netstandard2.1/MonoTorrent.Trackers.dll",
+        "lib/netstandard2.1/MonoTorrent.Trackers.xml",
+        "lib/netstandard2.1/MonoTorrent.dll",
+        "lib/netstandard2.1/MonoTorrent.xml",
+        "monotorrent.3.0.2.nupkg.sha512",
+        "monotorrent.nuspec"
+      ]
+    },
+    "ReusableTasks/4.0.0": {
+      "sha512": "6EKzscjq+Q+uxD0N5GWUBO2N34cuDiJ08ZxRs1lqS0Hwvnjp6AgimUIX/8dqIxRZbPOG4gcikTMo+PM4D9CfaQ==",
+      "type": "package",
+      "path": "reusabletasks/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "build/AsyncVoidMethodBuilder.cs",
+        "build/ReusableTasks.targets",
+        "lib/net5.0/ReusableTasks.dll",
+        "lib/net5.0/ReusableTasks.xml",
+        "lib/netcoreapp3.0/ReusableTasks.dll",
+        "lib/netcoreapp3.0/ReusableTasks.xml",
+        "lib/netstandard2.0/ReusableTasks.dll",
+        "lib/netstandard2.0/ReusableTasks.xml",
+        "lib/netstandard2.1/ReusableTasks.dll",
+        "lib/netstandard2.1/ReusableTasks.xml",
+        "reusabletasks.4.0.0.nupkg.sha512",
+        "reusabletasks.nuspec"
+      ]
+    },
+    "WTelegramClient/4.4.7": {
+      "sha512": "8Y3EVeSa6GVJxDFb/kKm4Q0qDHHYE7vM4AM5OhCTUhN9zPGFXMqmi5JH/yTx4zJueK9zWLw8D94kuiCDKuZkjw==",
+      "type": "package",
+      "path": "wtelegramclient/4.4.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/WTelegramClient.dll",
+        "lib/net5.0/WTelegramClient.xml",
+        "lib/net8.0/WTelegramClient.dll",
+        "lib/net8.0/WTelegramClient.xml",
+        "lib/netstandard2.0/WTelegramClient.dll",
+        "lib/netstandard2.0/WTelegramClient.xml",
+        "logo.png",
+        "wtelegramclient.4.4.7.nupkg.sha512",
+        "wtelegramclient.nuspec"
       ]
     },
     "Forestgram/1.0.0": {

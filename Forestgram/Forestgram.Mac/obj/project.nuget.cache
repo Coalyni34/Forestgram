@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "CHCRSQWRDYg=",
+  "dgSpecHash": "N6iOf7APIVc=",
   "success": true,
   "projectFilePath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Mac/Forestgram.Mac.csproj",
   "expectedPackageFiles": [
     "/home/coalynilap/.nuget/packages/eto.forms/2.11.0/eto.forms.2.11.0.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/eto.platform.mac64/2.11.0/eto.platform.mac64.2.11.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.10/microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.10/microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/mono.nat/3.0.0/mono.nat.3.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/monotorrent/3.0.2/monotorrent.3.0.2.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/reusabletasks/4.0.0/reusabletasks.4.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/wtelegramclient/4.4.7/wtelegramclient.4.4.7.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/10.0.10/microsoft.netcore.app.runtime.osx-x64.10.0.10.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/10.0.10/microsoft.netcore.app.runtime.osx-arm64.10.0.10.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/10.0.10/microsoft.aspnetcore.app.runtime.osx-x64.10.0.10.nupkg.sha512",

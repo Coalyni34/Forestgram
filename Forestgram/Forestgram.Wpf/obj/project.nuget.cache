@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hor43G0pzHs=",
+  "dgSpecHash": "1wE/uCFxW9U=",
   "success": true,
   "projectFilePath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Wpf/Forestgram.Wpf.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,13 @@
     "/home/coalynilap/.nuget/packages/eto.platform.wpf/2.11.0/eto.platform.wpf.2.11.0.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/extended.wpf.toolkit/3.6.0/extended.wpf.toolkit.3.6.0.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/microsoft-windowsapicodepack-core/1.1.4/microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
-    "/home/coalynilap/.nuget/packages/microsoft-windowsapicodepack-shell/1.1.4/microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512"
+    "/home/coalynilap/.nuget/packages/microsoft-windowsapicodepack-shell/1.1.4/microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.10/microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.10/microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/mono.nat/3.0.0/mono.nat.3.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/monotorrent/3.0.2/monotorrent.3.0.2.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/reusabletasks/4.0.0/reusabletasks.4.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/wtelegramclient/4.4.7/wtelegramclient.4.4.7.nupkg.sha512"
   ],
   "logs": [
     {

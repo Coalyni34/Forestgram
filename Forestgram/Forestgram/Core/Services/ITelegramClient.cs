@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Forestgram.Core.Models;
 
-namespace Forestgram.Core.Service
+namespace Forestgram.Core.Services
 {
     public interface ITelegramClient : IDisposable
     {
@@ -17,6 +17,7 @@ namespace Forestgram.Core.Service
         Task<IReadOnlyList<Chat>> GetChatsAsync();
 
         // Сообщения
+        Task<IReadOnlyList<Models.Message>> GetMessagesAsync(long chatId, int limit = 50);
         Task<bool> SendMessageAsync(long chatId, string text);
 
         // События обновлений (подписка)

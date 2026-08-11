@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Forestgram.Mac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ba44f6e8c60b872422cc549f8088b0e81c5a338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d891ccb8c79f491b6f0e6d3963059057135516c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Forestgram.Mac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Forestgram.Mac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

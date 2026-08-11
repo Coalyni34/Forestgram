@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wffgibOg+rk=",
+  "dgSpecHash": "WDE77F3SKCE=",
   "success": true,
   "projectFilePath": "/home/coalynilap/GithubProjects/Forestgram/Forestgram/Forestgram.Gtk/Forestgram.Gtk.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,13 @@
     "/home/coalynilap/.nuget/packages/giosharp/3.24.24.95/giosharp.3.24.24.95.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/glibsharp/3.24.24.95/glibsharp.3.24.24.95.nupkg.sha512",
     "/home/coalynilap/.nuget/packages/gtksharp/3.24.24.95/gtksharp.3.24.24.95.nupkg.sha512",
-    "/home/coalynilap/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512"
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.10/microsoft.extensions.dependencyinjection.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.10/microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/mono.nat/3.0.0/mono.nat.3.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/monotorrent/3.0.2/monotorrent.3.0.2.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/reusabletasks/4.0.0/reusabletasks.4.0.0.nupkg.sha512",
+    "/home/coalynilap/.nuget/packages/wtelegramclient/4.4.7/wtelegramclient.4.4.7.nupkg.sha512"
   ],
   "logs": []
 }
